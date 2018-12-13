@@ -1,0 +1,42 @@
+// String Type
+
+void main() {
+
+  // char
+  var i = "h";
+  print(i.runtimeType);
+}
+
+void main() {
+
+  // string
+  var i = "hello";
+  print(i.runtimeType);
+}
+
+// Int Type
+
+void main() {
+
+  // int
+  var i = 10;
+  print(i.runtimeType);
+}
+
+// Double
+
+void main() {
+
+  // double
+  var i = 10.0;
+  print(i.runtimeType);
+}
+
+// bool type
+
+void main() {
+
+  // bool
+  var i = true
+  print(i.runtimeType);
+}
