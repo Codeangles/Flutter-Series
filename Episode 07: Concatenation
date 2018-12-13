@@ -1,0 +1,27 @@
+Method 1:
+
+void main(){
+// Concatenation without space
+var first_name = "Venkatesh";
+var second_name = "Kallam";
+print(first_name+second_name);
+
+}
+
+
+void main(){
+// Concatenation with space
+var first_name = "Venkatesh";
+var second_name = "Kallam";
+print(first_name+" "+second_name);
+
+}
+
+Method 2: 
+void main(){
+// Concatenation with space
+var first_name = "Venkatesh";
+var second_name = "Kallam";
+print("$first_name $second_name");
+
+}
