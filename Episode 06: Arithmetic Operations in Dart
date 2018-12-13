@@ -1,0 +1,51 @@
+// Arithmetical Operations in Dart
+
+Addition
+
+void main() {
+
+// addition
+var a = 2;
+var b = 2;
+print(a+b);
+}
+
+Substraction
+
+void main() {
+
+// Substraction
+var a = 5;
+var b = 3;
+print(a-b);
+}
+
+Multiplication
+
+void main() {
+
+// Multiplication
+var a = 5;
+var b = 5;
+print(a*b);
+}
+
+Division
+
+void main() {
+
+// Division
+var a = 4;
+var b = 2;
+print(a/b);
+}
+
+Mod
+
+void main() {
+
+// Mod
+var a = 5;
+var b = 2;
+print(a%b);
+}
