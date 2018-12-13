@@ -1,0 +1,11 @@
+void main(){
+var status = "Holiday";
+if(status == "Holiday"){
+print("I will play football");
+}
+else
+{
+print("I will go to school");
+}
+
+}
