@@ -1,0 +1,19 @@
+void main() {
+var a ; // a is an object
+  var son = new Parent();
+  print(son.land);
+son.land = "48M";
+print(son.land);
+
+}
+
+class Parent {
+  var car = "15M";
+  var land = "45M";
+  var villa = "200M";
+
+  String message(){
+    return "Make this lake as a holiday place";
+  }
+}
+
