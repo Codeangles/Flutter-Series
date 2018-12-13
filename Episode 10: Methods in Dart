@@ -1,0 +1,10 @@
+void main(){
+// Multiplication
+var result = mul(10,10);
+print(result);
+}
+
+
+int mul(int i, int j){
+return i*j;
+}
