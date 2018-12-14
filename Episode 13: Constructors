@@ -1,0 +1,73 @@
+Method 1:
+
+void main() {
+  var a ; // a is an object
+  var son = new Parent();
+  print(son.land);
+  son.land = "48M";
+  print(son.land);
+  print(son.lake);
+  print(son.message());
+}
+
+class Parent extends GrandFather{
+  var car ;
+  var land ;
+  var villa ;
+
+  Parent(){
+    this.car = "15M";
+    this.land = "45M";
+    this.villa = "100M";
+  }
+
+
+  String message(){
+    return "Make this lake as a holiday place";
+  }
+}
+
+class GrandFather{
+  String message(){
+    return "Give this lake to charity";
+  }
+  var lake = "500M";
+}
+
+
+
+Method 2:
+
+void main() {
+  var a ; // a is an object
+  var son = new Parent("15M","45M","100M");
+  print(son.land);
+  son.land = "48M";
+  print(son.land);
+  print(son.lake);
+  print(son.message());
+}
+
+class Parent extends GrandFather{
+  var car ;
+  var land ;
+  var villa ;
+
+  Parent(String car, String land, String villa){
+    this.car = car;
+    this.land = land;
+    this.villa = villa;
+  }
+
+
+  String message(){
+    return "Make this lake as a holiday place";
+  }
+}
+
+class GrandFather{
+  String message(){
+    return "Give this lake to charity";
+  }
+  var lake = "500M";
+}
