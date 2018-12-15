@@ -1,0 +1,31 @@
+// example 1
+
+void main(){
+ var a = {
+ "zero": 10,
+ "one": 20,
+ "two":30,
+ 
+ };
+ 
+ print(a["two"]);
+ 
+ // a["two"] in maps same as a[2] in lists
+
+}
+
+// example 2
+
+// example 1
+
+void main(){
+ var a = {
+ "zero": 10,
+ "one": 20,
+ "ten":30,
+ 
+ };
+ 
+ print(a["ten"]);
+
+}
