@@ -8,6 +8,9 @@ void main(){
  
  };
  
+ // zero is key
+ // 10 is values of key
+ 
  print(a["two"]);
  
  // a["two"] in maps same as a[2] in lists
